@@ -36,9 +36,10 @@ npm install
 
 ```
 3-Install FFmpeg (if not already installed)
--Linux: sudo apt install ffmpeg
--macOS: brew install ffmpeg
--Windows: choco install ffmpeg (via Chocolatey)
+
+-**Linux**: sudo apt install ffmpeg
+-**macOS**: brew install ffmpeg
+-**Windows**: choco install ffmpeg (via Chocolatey)
 
 4-Start the server
 ```
