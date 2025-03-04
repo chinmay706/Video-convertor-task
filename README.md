@@ -37,9 +37,9 @@ npm install
 ```
 3-Install FFmpeg (if not already installed)
 
--**Linux**: sudo apt install ffmpeg
--**macOS**: brew install ffmpeg
--**Windows**: choco install ffmpeg (via Chocolatey)
+- **Linux**: sudo apt install ffmpeg
+- **macOS**: brew install ffmpeg
+- **Windows**: choco install ffmpeg (via Chocolatey)
 
 4-Start the server
 ```
@@ -51,3 +51,17 @@ node server.js
 npm start
 
 ```
+## 🎯 Usage
+
+1. **Upload a Video File**  
+   - Click on the "Upload" button and select a video file from your device.  
+
+2. **Select the Desired Output Format**  
+   - Choose the format you want to convert the video into (e.g., MP4, AVI, MKV, etc.).  
+
+3. **Click "Convert" to Process the Video**  
+   - The app will process the video using FFmpeg and convert it to the selected format.  
+
+4. **Download the Converted Video**  
+   - Once the conversion is complete, click the "Download" button to save the processed video.  
+
