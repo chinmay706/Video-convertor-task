@@ -6,9 +6,9 @@ It provides a simple and user-friendly interface for converting videos efficient
 
 ## 🚀 Features
 - 🎥 Upload videos for processing  
-- 🔄 Convert videos to different formats  
+- 🔄 Convert videos to different formats  (1x,1.25x,1.5x,1.75x,2x)
 - 📥 Download processed videos  
-- 🎨 User-friendly UI  
+- 🎨 User-friendly UI  (Light mode, Dark mode)
 
 ## 📸 Screenshots
 ![page-1](https://i.postimg.cc/V6tGSDL1/page-1.jpg)  
