@@ -6,9 +6,9 @@ It provides a simple and user-friendly interface for converting videos efficient
 
 ## 🚀 Features
 - 🎥 Upload videos for processing  
-- 🔄 Convert videos to different formats  (1x,1.25x,1.5x,1.75x,2x)
+- 🔄 Convert videos to different formats (1x,1.25x,1.5x,1.75x,2x)  
 - 📥 Download processed videos  
-- 🎨 User-friendly UI  (Light mode, Dark mode)
+- 🎨 User-friendly UI (Light mode, Dark mode)  
 
 ## 📸 Screenshots
 ![page-1](https://i.postimg.cc/V6tGSDL1/page-1.jpg)  
@@ -22,46 +22,63 @@ It provides a simple and user-friendly interface for converting videos efficient
 
 ## 🚀 Setup Instructions for Video Converter App
 
-1-Clone the repository
-```
+### 1️⃣ Clone the repository
+```sh
 git clone https://github.com/chinmay706/Video-convertor-task.git
 cd Video-convertor-task
-
 ```
 
-2-Install dependencies
-
-```
+### 2️⃣ Install dependencies
+Run the following command to install all required dependencies:
+```sh
 npm install
-
 ```
-3-Install FFmpeg (if not already installed)
 
-- **Linux**: sudo apt install ffmpeg
-- **macOS**: brew install ffmpeg
-- **Windows**: choco install ffmpeg (via Chocolatey)
+### 3️⃣ Install FFmpeg (if not already installed)
+FFmpeg is required for video processing. Install it based on your OS:
+- **Linux**: 
+  ```sh
+  sudo apt install ffmpeg
+  ```
+- **macOS**:
+  ```sh
+  brew install ffmpeg
+  ```
+- **Windows** (Using Chocolatey):
+  ```sh
+  choco install ffmpeg
+  ```
 
-4-Start the server
+### 4️⃣ Configure environment variables
+Create a `.env` file in the root directory and add necessary configurations:
 ```
+PORT=5000
+FFMPEG_PATH=/path/to/ffmpeg (if required for custom setup)
+```
+
+### 5️⃣ Start the backend server
+Run the following command to start the server:
+```sh
 node server.js
+```
 
-```
-5-Start the frontend
-```
+### 6️⃣ Start the frontend
+Run the following command to launch the frontend:
+```sh
 npm start
-
 ```
+
 ## 🎯 Usage
 
-1. **Upload a Video File**  
+1️⃣ **Upload a Video File**  
    - Click on the "Upload" button and select a video file from your device.  
 
-2. **Select the Desired Output Format**  
+2️⃣ **Select the Desired Output Format**  
    - Choose the format you want to convert the video into (e.g., MP4, AVI, MKV, etc.).  
 
-3. **Click "Convert" to Process the Video**  
-   - The app will process the video using FFmpeg and convert it to the selected format.  
+3️⃣ **Download the Processed Video**  
+   - After conversion, download the video using the provided download button.  
 
-4. **Download the Converted Video**  
-   - Once the conversion is complete, click the "Download" button to save the processed video.  
 
+---
+Made with ❤️ by Chinmay Oli
